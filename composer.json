@@ -1,0 +1,22 @@
+{
+  "name": "webjeyros/bing-webmaster-api",
+  "description": "Bing webmaster api client",
+  "license": "MIT",
+  "keywords": ["bing","webmaster","api"],
+  "authors": [
+    {
+      "name": "webjeyros",
+      "email": "webjeyros@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "bingWebmaster\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": "~6.0",
+    "guzzlehttp/psr7": "^1.2"
+  }
+}
