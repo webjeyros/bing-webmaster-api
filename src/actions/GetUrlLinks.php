@@ -8,19 +8,19 @@ class GetUrlLinks implements ActionInterface
     use ApiNameTrait;
 
     private $siteUrl;
-    private $query;
+    private $link;
     private $page;
 
     /**
      * GetUrlLinks constructor.
      * @param $siteUrl
-     * @param $query
+     * @param $link
      * @param $page
      */
-    public function __construct($siteUrl, $query, $page)
+    public function __construct($siteUrl, $link, $page)
     {
         $this->siteUrl = $siteUrl;
-        $this->query = $query;
+        $this->link = $link;
         $this->page = $page;
     }
 
