@@ -7,18 +7,19 @@ class SubmitFeed implements ActionInterface
 {
     use ApiNameTrait;
 
-    private $feedUrl;
     private $siteUrl;
-
+    private $feedUrl;
+    
     /**
      * SubmitFeed constructor.
-     * @param $feedUrl
      * @param $siteUrl
-     */
-    public function __construct($feedUrl, $siteUrl)
+     * @param $feedUrl
+    */
+    public function __construct( $siteUrl,$feedUrl)
     {
+	$this->siteUrl = $siteUrl;    
         $this->feedUrl = $feedUrl;
-        $this->siteUrl = $siteUrl;
+        
     }
 
 
