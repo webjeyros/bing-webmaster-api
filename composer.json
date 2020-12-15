@@ -16,7 +16,7 @@
   },
   "require": {
     "php": ">=5.4",
-    "guzzlehttp/guzzle": "^6.2.0",
+    "guzzlehttp/guzzle": "^6.2.0 || ^7.0",
     "guzzlehttp/psr7": "^1.2"
   }
 }
